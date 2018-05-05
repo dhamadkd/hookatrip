@@ -1,0 +1,12 @@
+		<!-- Header -->
+    <header id="header">
+      <div class="inner">
+        <a routerLink="/home" class="logo">Hook A Trip</a>
+        <nav id="nav">
+          <a [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}" routerLink="/home">Home</a>
+          <a routerLink="/services">Services</a>
+          <a routerLink="/aboutus">About Us</a>
+        </nav>
+      </div>
+    </header>
+    <a href="#menu" class="navPanelToggle"><span class="fa fa-bars"></span></a>
